@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 # No third-party packages required.
 # This project uses the Python standard library only.
+=======
+python-dotenv
+>>>>>>> 5f67676 (Fix order loading retry and refresh pipeline log)
