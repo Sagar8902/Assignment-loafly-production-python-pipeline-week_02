@@ -1,539 +1,302 @@
-<<<<<<< HEAD
-2026-09-12 22:46:01,234 - INFO - Loafly pipeline started
-2026-09-12 22:46:01,235 - INFO - Starting order extraction from raw_orders.csv
-2026-09-12 22:46:01,235 - INFO - Successfully extracted 15 orders
-2026-09-12 22:46:01,236 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
-2026-09-12 22:46:01,236 - INFO - Order 5001 transformed successfully. Total: 297.00
-2026-09-12 22:46:01,237 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
-2026-09-12 22:46:01,237 - INFO - Finished processing price for item 'Banana Bread' in order 5002
-2026-09-12 22:46:01,237 - INFO - Finished processing price for item 'Ciabatta' in order 5002
-2026-09-12 22:46:01,237 - INFO - Order 5002 transformed successfully. Total: 513.00
-2026-09-12 22:46:01,238 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
-2026-09-12 22:46:01,238 - INFO - Finished processing price for item 'Banana Bread' in order 5003
-2026-09-12 22:46:01,238 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
-2026-09-12 22:46:01,238 - INFO - Order 5003 transformed successfully. Total: 666.00
-2026-09-12 22:46:01,239 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Focaccia' in order 5004
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Baguette' in order 5004
-2026-09-12 22:46:01,239 - INFO - Order 5004 transformed successfully. Total: 369.00
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Focaccia' in order 5005
-2026-09-12 22:46:01,240 - INFO - Order 5005 transformed successfully. Total: 243.00
-2026-09-12 22:46:01,240 - INFO - Finished processing price for item 'Cookie Box' in order 5006
-2026-09-12 22:46:01,240 - INFO - Order 5006 transformed successfully. Total: 1116.00
-2026-09-12 22:46:01,240 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
-2026-09-12 22:46:01,240 - INFO - Finished processing price for item 'Banana Bread' in order 5007
-2026-09-12 22:46:01,241 - INFO - Order 5007 transformed successfully. Total: 369.00
-2026-09-12 22:46:01,241 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
-2026-09-12 22:46:01,241 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
-2026-09-12 22:46:01,241 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
-2026-09-12 22:46:01,241 - INFO - Order 5008 transformed successfully. Total: 639.00
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Focaccia' in order 5009
-2026-09-12 22:46:01,242 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Ciabatta' in order 5009
-2026-09-12 22:46:01,242 - INFO - Order 5009 transformed successfully. Total: 396.00
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Cookie Box' in order 5010
-2026-09-12 22:46:01,243 - INFO - Order 5010 transformed successfully. Total: 1467.00
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
-2026-09-12 22:46:01,243 - INFO - Order 5011 transformed successfully. Total: 189.00
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
-2026-09-12 22:46:01,244 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
-2026-09-12 22:46:01,244 - INFO - Order 5012 transformed successfully. Total: 351.00
-2026-09-12 22:46:01,244 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
-2026-09-12 22:46:01,244 - INFO - Finished processing price for item 'Cookie Box' in order 5013
-2026-09-12 22:46:01,244 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
-2026-09-12 22:46:01,245 - INFO - Order 5013 transformed successfully. Total: 135.00
-2026-09-12 22:46:01,245 - INFO - Finished processing price for item 'Baguette' in order 5014
-2026-09-12 22:46:01,245 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
-2026-09-12 22:46:01,245 - INFO - Finished processing price for item 'Banana Bread' in order 5014
-2026-09-12 22:46:01,245 - INFO - Order 5014 transformed successfully. Total: 603.00
-2026-09-12 22:46:01,246 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
-2026-09-12 22:46:01,246 - INFO - Order 5015 transformed successfully. Total: 135.00
-2026-09-12 22:46:01,246 - INFO - Saving order 5001 for Arjun, total INR 297.00
-2026-09-12 22:46:01,246 - INFO - Saving order 5002 for Kabir, total INR 513.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5003 for Aarav, total INR 666.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5004 for Kabir, total INR 369.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5005 for Reyansh, total INR 243.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5006 for Rohan, total INR 1116.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5007 for Dev, total INR 369.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5008 for Ishita, total INR 639.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5009 for Saanvi, total INR 396.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5010 for Kabir, total INR 1467.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5011 for Rohan, total INR 189.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5012 for Reyansh, total INR 351.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5013 for Saanvi, total INR 135.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5014 for Aditya, total INR 603.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5015 for Naina, total INR 135.00
-2026-09-12 22:46:01,249 - INFO - Loafly pipeline completed successfully
-=======
-2026-09-12 22:46:01,234 - INFO - Loafly pipeline started
-2026-09-12 22:46:01,235 - INFO - Starting order extraction from raw_orders.csv
-2026-09-12 22:46:01,235 - INFO - Successfully extracted 15 orders
-2026-09-12 22:46:01,236 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
-2026-09-12 22:46:01,236 - INFO - Order 5001 transformed successfully. Total: 297.00
-2026-09-12 22:46:01,237 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
-2026-09-12 22:46:01,237 - INFO - Finished processing price for item 'Banana Bread' in order 5002
-2026-09-12 22:46:01,237 - INFO - Finished processing price for item 'Ciabatta' in order 5002
-2026-09-12 22:46:01,237 - INFO - Order 5002 transformed successfully. Total: 513.00
-2026-09-12 22:46:01,238 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
-2026-09-12 22:46:01,238 - INFO - Finished processing price for item 'Banana Bread' in order 5003
-2026-09-12 22:46:01,238 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
-2026-09-12 22:46:01,238 - INFO - Order 5003 transformed successfully. Total: 666.00
-2026-09-12 22:46:01,239 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Focaccia' in order 5004
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Baguette' in order 5004
-2026-09-12 22:46:01,239 - INFO - Order 5004 transformed successfully. Total: 369.00
-2026-09-12 22:46:01,239 - INFO - Finished processing price for item 'Focaccia' in order 5005
-2026-09-12 22:46:01,240 - INFO - Order 5005 transformed successfully. Total: 243.00
-2026-09-12 22:46:01,240 - INFO - Finished processing price for item 'Cookie Box' in order 5006
-2026-09-12 22:46:01,240 - INFO - Order 5006 transformed successfully. Total: 1116.00
-2026-09-12 22:46:01,240 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
-2026-09-12 22:46:01,240 - INFO - Finished processing price for item 'Banana Bread' in order 5007
-2026-09-12 22:46:01,241 - INFO - Order 5007 transformed successfully. Total: 369.00
-2026-09-12 22:46:01,241 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
-2026-09-12 22:46:01,241 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
-2026-09-12 22:46:01,241 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
-2026-09-12 22:46:01,241 - INFO - Order 5008 transformed successfully. Total: 639.00
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Focaccia' in order 5009
-2026-09-12 22:46:01,242 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Ciabatta' in order 5009
-2026-09-12 22:46:01,242 - INFO - Order 5009 transformed successfully. Total: 396.00
-2026-09-12 22:46:01,242 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Cookie Box' in order 5010
-2026-09-12 22:46:01,243 - INFO - Order 5010 transformed successfully. Total: 1467.00
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
-2026-09-12 22:46:01,243 - INFO - Order 5011 transformed successfully. Total: 189.00
-2026-09-12 22:46:01,243 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
-2026-09-12 22:46:01,244 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
-2026-09-12 22:46:01,244 - INFO - Order 5012 transformed successfully. Total: 351.00
-2026-09-12 22:46:01,244 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
-2026-09-12 22:46:01,244 - INFO - Finished processing price for item 'Cookie Box' in order 5013
-2026-09-12 22:46:01,244 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
-2026-09-12 22:46:01,245 - INFO - Order 5013 transformed successfully. Total: 135.00
-2026-09-12 22:46:01,245 - INFO - Finished processing price for item 'Baguette' in order 5014
-2026-09-12 22:46:01,245 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
-2026-09-12 22:46:01,245 - INFO - Finished processing price for item 'Banana Bread' in order 5014
-2026-09-12 22:46:01,245 - INFO - Order 5014 transformed successfully. Total: 603.00
-2026-09-12 22:46:01,246 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
-2026-09-12 22:46:01,246 - INFO - Order 5015 transformed successfully. Total: 135.00
-2026-09-12 22:46:01,246 - INFO - Saving order 5001 for Arjun, total INR 297.00
-2026-09-12 22:46:01,246 - INFO - Saving order 5002 for Kabir, total INR 513.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5003 for Aarav, total INR 666.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5004 for Kabir, total INR 369.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5005 for Reyansh, total INR 243.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5006 for Rohan, total INR 1116.00
-2026-09-12 22:46:01,247 - INFO - Saving order 5007 for Dev, total INR 369.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5008 for Ishita, total INR 639.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5009 for Saanvi, total INR 396.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5010 for Kabir, total INR 1467.00
-2026-09-12 22:46:01,248 - INFO - Saving order 5011 for Rohan, total INR 189.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5012 for Reyansh, total INR 351.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5013 for Saanvi, total INR 135.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5014 for Aditya, total INR 603.00
-2026-09-12 22:46:01,249 - INFO - Saving order 5015 for Naina, total INR 135.00
-2026-09-12 22:46:01,249 - INFO - Loafly pipeline completed successfully
-2026-09-13 11:18:54,922 - INFO - Loafly pipeline started
-2026-09-13 11:18:54,923 - ERROR - LOAFLY_API_KEY is not set
-2026-09-13 11:20:15,189 - INFO - Loafly pipeline started
-2026-09-13 11:20:15,190 - ERROR - LOAFLY_API_KEY is not set
-2026-09-13 11:20:34,390 - INFO - Loafly pipeline started
-2026-09-13 11:20:34,390 - ERROR - LOAFLY_API_KEY is not set
-2026-09-16 22:04:27,390 - INFO - Loafly pipeline started
-2026-09-16 22:04:27,390 - INFO - Starting order extraction from raw_orders.csv
-2026-09-16 22:04:27,399 - INFO - Successfully extracted 15 orders
-2026-09-16 22:04:27,399 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
-2026-09-16 22:04:27,400 - INFO - Order 5001 transformed successfully. Total: 297.00
-2026-09-16 22:04:27,400 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
-2026-09-16 22:04:27,400 - INFO - Finished processing price for item 'Banana Bread' in order 5002
-2026-09-16 22:04:27,400 - INFO - Finished processing price for item 'Ciabatta' in order 5002
-2026-09-16 22:04:27,400 - INFO - Order 5002 transformed successfully. Total: 513.00
-2026-09-16 22:04:27,400 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
-2026-09-16 22:04:27,400 - INFO - Finished processing price for item 'Banana Bread' in order 5003
-2026-09-16 22:04:27,401 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
-2026-09-16 22:04:27,401 - INFO - Order 5003 transformed successfully. Total: 666.00
-2026-09-16 22:04:27,401 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
-2026-09-16 22:04:27,401 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
-2026-09-16 22:04:27,401 - INFO - Finished processing price for item 'Focaccia' in order 5004
-2026-09-16 22:04:27,401 - INFO - Finished processing price for item 'Baguette' in order 5004
-2026-09-16 22:04:27,402 - INFO - Order 5004 transformed successfully. Total: 369.00
-2026-09-16 22:04:27,402 - INFO - Finished processing price for item 'Focaccia' in order 5005
-2026-09-16 22:04:27,402 - INFO - Order 5005 transformed successfully. Total: 243.00
-2026-09-16 22:04:27,402 - INFO - Finished processing price for item 'Cookie Box' in order 5006
-2026-09-16 22:04:27,402 - INFO - Order 5006 transformed successfully. Total: 1116.00
-2026-09-16 22:04:27,402 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
-2026-09-16 22:04:27,402 - INFO - Finished processing price for item 'Banana Bread' in order 5007
-2026-09-16 22:04:27,403 - INFO - Order 5007 transformed successfully. Total: 369.00
-2026-09-16 22:04:27,403 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
-2026-09-16 22:04:27,403 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
-2026-09-16 22:04:27,403 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
-2026-09-16 22:04:27,403 - INFO - Order 5008 transformed successfully. Total: 639.00
-2026-09-16 22:04:27,403 - INFO - Finished processing price for item 'Focaccia' in order 5009
-2026-09-16 22:04:27,403 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
-2026-09-16 22:04:27,403 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
-2026-09-16 22:04:27,404 - INFO - Finished processing price for item 'Ciabatta' in order 5009
-2026-09-16 22:04:27,404 - INFO - Order 5009 transformed successfully. Total: 396.00
-2026-09-16 22:04:27,404 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
-2026-09-16 22:04:27,404 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
-2026-09-16 22:04:27,420 - INFO - Finished processing price for item 'Cookie Box' in order 5010
-2026-09-16 22:04:27,422 - INFO - Order 5010 transformed successfully. Total: 1467.00
-2026-09-16 22:04:27,423 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
-2026-09-16 22:04:27,423 - INFO - Order 5011 transformed successfully. Total: 189.00
-2026-09-16 22:04:27,423 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
-2026-09-16 22:04:27,423 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
-2026-09-16 22:04:27,424 - INFO - Order 5012 transformed successfully. Total: 351.00
-2026-09-16 22:04:27,424 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
-2026-09-16 22:04:27,424 - INFO - Finished processing price for item 'Cookie Box' in order 5013
-2026-09-16 22:04:27,424 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
-2026-09-16 22:04:27,424 - INFO - Order 5013 transformed successfully. Total: 135.00
-2026-09-16 22:04:27,424 - INFO - Finished processing price for item 'Baguette' in order 5014
-2026-09-16 22:04:27,425 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
-2026-09-16 22:04:27,425 - INFO - Finished processing price for item 'Banana Bread' in order 5014
-2026-09-16 22:04:27,425 - INFO - Order 5014 transformed successfully. Total: 603.00
-2026-09-16 22:04:27,425 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
-2026-09-16 22:04:27,425 - INFO - Order 5015 transformed successfully. Total: 135.00
-2026-09-16 22:04:27,426 - INFO - Saving order 5001 for Arjun, total INR 297.00
-2026-09-16 22:04:27,426 - WARNING - Attempt 1/3 failed for order 5001: orders API unavailable for order 5001
-2026-09-16 22:04:27,426 - INFO - Waiting 1 second before retrying order 5001
-2026-09-16 22:04:28,427 - INFO - Order 5001 saved successfully on attempt 2
-2026-09-16 22:04:28,427 - INFO - Saving order 5002 for Kabir, total INR 513.00
-2026-09-16 22:04:28,427 - INFO - Order 5002 saved successfully on attempt 1
-2026-09-16 22:04:28,427 - INFO - Saving order 5003 for Aarav, total INR 666.00
-2026-09-16 22:04:28,428 - INFO - Order 5003 saved successfully on attempt 1
-2026-09-16 22:04:28,428 - INFO - Saving order 5004 for Kabir, total INR 369.00
-2026-09-16 22:04:28,428 - INFO - Order 5004 saved successfully on attempt 1
-2026-09-16 22:04:28,428 - INFO - Saving order 5005 for Reyansh, total INR 243.00
-2026-09-16 22:04:28,428 - WARNING - Attempt 1/3 failed for order 5005: orders API unavailable for order 5005
-2026-09-16 22:04:28,428 - INFO - Waiting 1 second before retrying order 5005
-2026-09-16 22:04:29,430 - INFO - Order 5005 saved successfully on attempt 2
-2026-09-16 22:04:29,430 - INFO - Saving order 5006 for Rohan, total INR 1116.00
-2026-09-16 22:04:29,430 - WARNING - Attempt 1/3 failed for order 5006: orders API unavailable for order 5006
-2026-09-16 22:04:29,430 - INFO - Waiting 1 second before retrying order 5006
-2026-09-16 22:04:30,431 - INFO - Order 5006 saved successfully on attempt 2
-2026-09-16 22:04:30,431 - INFO - Saving order 5007 for Dev, total INR 369.00
-2026-09-16 22:04:30,431 - INFO - Order 5007 saved successfully on attempt 1
-2026-09-16 22:04:30,432 - INFO - Saving order 5008 for Ishita, total INR 639.00
-2026-09-16 22:04:30,432 - INFO - Order 5008 saved successfully on attempt 1
-2026-09-16 22:04:30,432 - INFO - Saving order 5009 for Saanvi, total INR 396.00
-2026-09-16 22:04:30,433 - INFO - Order 5009 saved successfully on attempt 1
-2026-09-16 22:04:30,433 - INFO - Saving order 5010 for Kabir, total INR 1467.00
-2026-09-16 22:04:30,433 - WARNING - Attempt 1/3 failed for order 5010: orders API unavailable for order 5010
-2026-09-16 22:04:30,433 - INFO - Waiting 1 second before retrying order 5010
-2026-09-16 22:04:31,434 - WARNING - Attempt 2/3 failed for order 5010: orders API unavailable for order 5010
-2026-09-16 22:04:31,435 - INFO - Waiting 1 second before retrying order 5010
-2026-09-16 22:04:32,436 - INFO - Order 5010 saved successfully on attempt 3
-2026-09-16 22:04:32,437 - INFO - Saving order 5011 for Rohan, total INR 189.00
-2026-09-16 22:04:32,437 - INFO - Order 5011 saved successfully on attempt 1
-2026-09-16 22:04:32,437 - INFO - Saving order 5012 for Reyansh, total INR 351.00
-2026-09-16 22:04:32,438 - WARNING - Attempt 1/3 failed for order 5012: orders API unavailable for order 5012
-2026-09-16 22:04:32,438 - INFO - Waiting 1 second before retrying order 5012
-2026-09-16 22:04:33,439 - WARNING - Attempt 2/3 failed for order 5012: orders API unavailable for order 5012
-2026-09-16 22:04:33,440 - INFO - Waiting 1 second before retrying order 5012
-2026-09-16 22:04:34,441 - INFO - Order 5012 saved successfully on attempt 3
-2026-09-16 22:04:34,442 - INFO - Saving order 5013 for Saanvi, total INR 135.00
-2026-09-16 22:04:34,442 - INFO - Order 5013 saved successfully on attempt 1
-2026-09-16 22:04:34,443 - INFO - Saving order 5014 for Aditya, total INR 603.00
-2026-09-16 22:04:34,443 - INFO - Order 5014 saved successfully on attempt 1
-2026-09-16 22:04:34,443 - INFO - Saving order 5015 for Naina, total INR 135.00
-2026-09-16 22:04:34,444 - INFO - Order 5015 saved successfully on attempt 1
-2026-09-16 22:04:34,444 - INFO - Loafly pipeline completed successfully
-2026-09-16 22:14:19,110 - INFO - Loafly pipeline started
-2026-09-16 22:14:19,110 - INFO - Starting order extraction from raw_orders.csv
-2026-09-16 22:14:19,111 - INFO - Successfully extracted 15 orders
-2026-09-16 22:14:19,111 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
-2026-09-16 22:14:19,111 - INFO - Order 5001 transformed successfully. Total: 297.00
-2026-09-16 22:14:19,111 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
-2026-09-16 22:14:19,111 - INFO - Finished processing price for item 'Banana Bread' in order 5002
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Ciabatta' in order 5002
-2026-09-16 22:14:19,112 - INFO - Order 5002 transformed successfully. Total: 513.00
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Banana Bread' in order 5003
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
-2026-09-16 22:14:19,112 - INFO - Order 5003 transformed successfully. Total: 666.00
-2026-09-16 22:14:19,112 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Focaccia' in order 5004
-2026-09-16 22:14:19,112 - INFO - Finished processing price for item 'Baguette' in order 5004
-2026-09-16 22:14:19,113 - INFO - Order 5004 transformed successfully. Total: 369.00
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Focaccia' in order 5005
-2026-09-16 22:14:19,113 - INFO - Order 5005 transformed successfully. Total: 243.00
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Cookie Box' in order 5006
-2026-09-16 22:14:19,113 - INFO - Order 5006 transformed successfully. Total: 1116.00
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Banana Bread' in order 5007
-2026-09-16 22:14:19,113 - INFO - Order 5007 transformed successfully. Total: 369.00
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
-2026-09-16 22:14:19,113 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
-2026-09-16 22:14:19,114 - INFO - Order 5008 transformed successfully. Total: 639.00
-2026-09-16 22:14:19,114 - INFO - Finished processing price for item 'Focaccia' in order 5009
-2026-09-16 22:14:19,114 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
-2026-09-16 22:14:19,114 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
-2026-09-16 22:14:19,114 - INFO - Finished processing price for item 'Ciabatta' in order 5009
-2026-09-16 22:14:19,114 - INFO - Order 5009 transformed successfully. Total: 396.00
-2026-09-16 22:14:19,114 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
-2026-09-16 22:14:19,115 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
-2026-09-16 22:14:19,115 - INFO - Finished processing price for item 'Cookie Box' in order 5010
-2026-09-16 22:14:19,115 - INFO - Order 5010 transformed successfully. Total: 1467.00
-2026-09-16 22:14:19,139 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
-2026-09-16 22:14:19,139 - INFO - Order 5011 transformed successfully. Total: 189.00
-2026-09-16 22:14:19,140 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
-2026-09-16 22:14:19,140 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
-2026-09-16 22:14:19,140 - INFO - Order 5012 transformed successfully. Total: 351.00
-2026-09-16 22:14:19,140 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
-2026-09-16 22:14:19,140 - INFO - Finished processing price for item 'Cookie Box' in order 5013
-2026-09-16 22:14:19,141 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
-2026-09-16 22:14:19,141 - INFO - Order 5013 transformed successfully. Total: 135.00
-2026-09-16 22:14:19,141 - INFO - Finished processing price for item 'Baguette' in order 5014
-2026-09-16 22:14:19,141 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
-2026-09-16 22:14:19,141 - INFO - Finished processing price for item 'Banana Bread' in order 5014
-2026-09-16 22:14:19,141 - INFO - Order 5014 transformed successfully. Total: 603.00
-2026-09-16 22:14:19,142 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
-2026-09-16 22:14:19,142 - INFO - Order 5015 transformed successfully. Total: 135.00
-2026-09-16 22:14:19,142 - INFO - Saving order 5001 for Arjun, total INR 297.00
-2026-09-16 22:14:19,142 - INFO - Order 5001 saved successfully on attempt 1
-2026-09-16 22:14:19,142 - INFO - Saving order 5002 for Kabir, total INR 513.00
-2026-09-16 22:14:19,143 - INFO - Order 5002 saved successfully on attempt 1
-2026-09-16 22:14:19,143 - INFO - Saving order 5003 for Aarav, total INR 666.00
-2026-09-16 22:14:19,143 - INFO - Order 5003 saved successfully on attempt 1
-2026-09-16 22:14:19,143 - INFO - Saving order 5004 for Kabir, total INR 369.00
-2026-09-16 22:14:19,143 - INFO - Order 5004 saved successfully on attempt 1
-2026-09-16 22:14:19,143 - INFO - Saving order 5005 for Reyansh, total INR 243.00
-2026-09-16 22:14:19,143 - INFO - Order 5005 saved successfully on attempt 1
-2026-09-16 22:14:19,144 - INFO - Saving order 5006 for Rohan, total INR 1116.00
-2026-09-16 22:14:19,144 - WARNING - Attempt 1/3 failed for order 5006: orders API unavailable for order 5006
-2026-09-16 22:14:19,144 - INFO - Waiting 1 second before retrying order 5006
-2026-09-16 22:14:20,175 - INFO - Order 5006 saved successfully on attempt 2
-2026-09-16 22:14:20,190 - INFO - Saving order 5007 for Dev, total INR 369.00
-2026-09-16 22:14:20,192 - INFO - Order 5007 saved successfully on attempt 1
-2026-09-16 22:14:20,193 - INFO - Saving order 5008 for Ishita, total INR 639.00
-2026-09-16 22:14:20,193 - WARNING - Attempt 1/3 failed for order 5008: orders API unavailable for order 5008
-2026-09-16 22:14:20,193 - INFO - Waiting 1 second before retrying order 5008
-2026-09-16 22:14:21,194 - INFO - Order 5008 saved successfully on attempt 2
-2026-09-16 22:14:21,194 - INFO - Saving order 5009 for Saanvi, total INR 396.00
-2026-09-16 22:14:21,194 - INFO - Order 5009 saved successfully on attempt 1
-2026-09-16 22:14:21,194 - INFO - Saving order 5010 for Kabir, total INR 1467.00
-2026-09-16 22:14:21,194 - WARNING - Attempt 1/3 failed for order 5010: orders API unavailable for order 5010
-2026-09-16 22:14:21,195 - INFO - Waiting 1 second before retrying order 5010
-2026-09-16 22:14:22,195 - INFO - Order 5010 saved successfully on attempt 2
-2026-09-16 22:14:22,196 - INFO - Saving order 5011 for Rohan, total INR 189.00
-2026-09-16 22:14:22,196 - INFO - Order 5011 saved successfully on attempt 1
-2026-09-16 22:14:22,196 - INFO - Saving order 5012 for Reyansh, total INR 351.00
-2026-09-16 22:14:22,196 - INFO - Order 5012 saved successfully on attempt 1
-2026-09-16 22:14:22,197 - INFO - Saving order 5013 for Saanvi, total INR 135.00
-2026-09-16 22:14:22,197 - INFO - Order 5013 saved successfully on attempt 1
-2026-09-16 22:14:22,197 - INFO - Saving order 5014 for Aditya, total INR 603.00
-2026-09-16 22:14:22,198 - INFO - Order 5014 saved successfully on attempt 1
-2026-09-16 22:14:22,198 - INFO - Saving order 5015 for Naina, total INR 135.00
-2026-09-16 22:14:22,198 - WARNING - Attempt 1/3 failed for order 5015: orders API unavailable for order 5015
-2026-09-16 22:14:22,198 - INFO - Waiting 1 second before retrying order 5015
-2026-09-16 22:14:23,199 - INFO - Order 5015 saved successfully on attempt 2
-2026-09-16 22:14:23,200 - INFO - Loafly pipeline completed successfully
-2026-09-16 22:21:47,870 - INFO - Loafly pipeline started
-2026-09-16 22:21:47,870 - ERROR - LOAFLY_API_KEY is not set
-2026-09-16 22:21:51,963 - INFO - Loafly pipeline started
-2026-09-16 22:21:51,963 - ERROR - LOAFLY_API_KEY is not set
-2026-09-16 22:22:51,709 - INFO - Loafly pipeline started
-2026-09-16 22:22:51,709 - INFO - Starting order extraction from raw_orders.csv
-2026-09-16 22:22:51,709 - INFO - Successfully extracted 15 orders
-2026-09-16 22:22:51,710 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
-2026-09-16 22:22:51,710 - INFO - Order 5001 transformed successfully. Total: 297.00
-2026-09-16 22:22:51,710 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
-2026-09-16 22:22:51,710 - INFO - Finished processing price for item 'Banana Bread' in order 5002
-2026-09-16 22:22:51,710 - INFO - Finished processing price for item 'Ciabatta' in order 5002
-2026-09-16 22:22:51,710 - INFO - Order 5002 transformed successfully. Total: 513.00
-2026-09-16 22:22:51,710 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
-2026-09-16 22:22:51,710 - INFO - Finished processing price for item 'Banana Bread' in order 5003
-2026-09-16 22:22:51,711 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
-2026-09-16 22:22:51,711 - INFO - Order 5003 transformed successfully. Total: 666.00
-2026-09-16 22:22:51,711 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
-2026-09-16 22:22:51,711 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
-2026-09-16 22:22:51,711 - INFO - Finished processing price for item 'Focaccia' in order 5004
-2026-09-16 22:22:51,711 - INFO - Finished processing price for item 'Baguette' in order 5004
-2026-09-16 22:22:51,711 - INFO - Order 5004 transformed successfully. Total: 369.00
-2026-09-16 22:22:51,711 - INFO - Finished processing price for item 'Focaccia' in order 5005
-2026-09-16 22:22:51,711 - INFO - Order 5005 transformed successfully. Total: 243.00
-2026-09-16 22:22:51,711 - INFO - Finished processing price for item 'Cookie Box' in order 5006
-2026-09-16 22:22:51,712 - INFO - Order 5006 transformed successfully. Total: 1116.00
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Banana Bread' in order 5007
-2026-09-16 22:22:51,712 - INFO - Order 5007 transformed successfully. Total: 369.00
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
-2026-09-16 22:22:51,712 - INFO - Order 5008 transformed successfully. Total: 639.00
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Focaccia' in order 5009
-2026-09-16 22:22:51,712 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
-2026-09-16 22:22:51,712 - INFO - Finished processing price for item 'Ciabatta' in order 5009
-2026-09-16 22:22:51,713 - INFO - Order 5009 transformed successfully. Total: 396.00
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Cookie Box' in order 5010
-2026-09-16 22:22:51,713 - INFO - Order 5010 transformed successfully. Total: 1467.00
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
-2026-09-16 22:22:51,713 - INFO - Order 5011 transformed successfully. Total: 189.00
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
-2026-09-16 22:22:51,713 - INFO - Order 5012 transformed successfully. Total: 351.00
-2026-09-16 22:22:51,713 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
-2026-09-16 22:22:51,713 - INFO - Finished processing price for item 'Cookie Box' in order 5013
-2026-09-16 22:22:51,714 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
-2026-09-16 22:22:51,714 - INFO - Order 5013 transformed successfully. Total: 135.00
-2026-09-16 22:22:51,714 - INFO - Finished processing price for item 'Baguette' in order 5014
-2026-09-16 22:22:51,714 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
-2026-09-16 22:22:51,714 - INFO - Finished processing price for item 'Banana Bread' in order 5014
-2026-09-16 22:22:51,714 - INFO - Order 5014 transformed successfully. Total: 603.00
-2026-09-16 22:22:51,714 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
-2026-09-16 22:22:51,714 - INFO - Order 5015 transformed successfully. Total: 135.00
-2026-09-16 22:22:51,714 - INFO - Saving order 5001 for Arjun, total INR 297.00
-2026-09-16 22:22:51,715 - WARNING - Attempt 1/3 failed for order 5001: orders API unavailable for order 5001
-2026-09-16 22:22:51,715 - INFO - Waiting 1 second before retrying order 5001
-2026-09-16 22:22:52,716 - WARNING - Attempt 2/3 failed for order 5001: orders API unavailable for order 5001
-2026-09-16 22:22:52,717 - INFO - Waiting 1 second before retrying order 5001
-2026-09-16 22:22:53,718 - INFO - Order 5001 saved successfully on attempt 3
-2026-09-16 22:22:53,719 - INFO - Saving order 5002 for Kabir, total INR 513.00
-2026-09-16 22:22:53,719 - INFO - Order 5002 saved successfully on attempt 1
-2026-09-16 22:22:53,719 - INFO - Saving order 5003 for Aarav, total INR 666.00
-2026-09-16 22:22:53,719 - INFO - Order 5003 saved successfully on attempt 1
-2026-09-16 22:22:53,719 - INFO - Saving order 5004 for Kabir, total INR 369.00
-2026-09-16 22:22:53,719 - INFO - Order 5004 saved successfully on attempt 1
-2026-09-16 22:22:53,719 - INFO - Saving order 5005 for Reyansh, total INR 243.00
-2026-09-16 22:22:53,720 - INFO - Order 5005 saved successfully on attempt 1
-2026-09-16 22:22:53,720 - INFO - Saving order 5006 for Rohan, total INR 1116.00
-2026-09-16 22:22:53,720 - WARNING - Attempt 1/3 failed for order 5006: orders API unavailable for order 5006
-2026-09-16 22:22:53,720 - INFO - Waiting 1 second before retrying order 5006
-2026-09-16 22:22:54,721 - INFO - Order 5006 saved successfully on attempt 2
-2026-09-16 22:22:54,722 - INFO - Saving order 5007 for Dev, total INR 369.00
-2026-09-16 22:22:54,722 - INFO - Order 5007 saved successfully on attempt 1
-2026-09-16 22:22:54,723 - INFO - Saving order 5008 for Ishita, total INR 639.00
-2026-09-16 22:22:54,723 - INFO - Order 5008 saved successfully on attempt 1
-2026-09-16 22:22:54,723 - INFO - Saving order 5009 for Saanvi, total INR 396.00
-2026-09-16 22:22:54,724 - INFO - Order 5009 saved successfully on attempt 1
-2026-09-16 22:22:54,724 - INFO - Saving order 5010 for Kabir, total INR 1467.00
-2026-09-16 22:22:54,724 - INFO - Order 5010 saved successfully on attempt 1
-2026-09-16 22:22:54,724 - INFO - Saving order 5011 for Rohan, total INR 189.00
-2026-09-16 22:22:54,725 - INFO - Order 5011 saved successfully on attempt 1
-2026-09-16 22:22:54,725 - INFO - Saving order 5012 for Reyansh, total INR 351.00
-2026-09-16 22:22:54,725 - INFO - Order 5012 saved successfully on attempt 1
-2026-09-16 22:22:54,725 - INFO - Saving order 5013 for Saanvi, total INR 135.00
-2026-09-16 22:22:54,726 - INFO - Order 5013 saved successfully on attempt 1
-2026-09-16 22:22:54,726 - INFO - Saving order 5014 for Aditya, total INR 603.00
-2026-09-16 22:22:54,726 - WARNING - Attempt 1/3 failed for order 5014: orders API unavailable for order 5014
-2026-09-16 22:22:54,726 - INFO - Waiting 1 second before retrying order 5014
-2026-09-16 22:22:55,727 - INFO - Order 5014 saved successfully on attempt 2
-2026-09-16 22:22:55,727 - INFO - Saving order 5015 for Naina, total INR 135.00
-2026-09-16 22:22:55,728 - INFO - Order 5015 saved successfully on attempt 1
-2026-09-16 22:22:55,728 - INFO - Loafly pipeline completed successfully
-2026-09-16 22:27:43,938 - INFO - Loafly pipeline started
-2026-09-16 22:27:43,938 - ERROR - LOAFLY_API_KEY is not set
-2026-09-16 22:28:52,561 - INFO - Loafly pipeline started
-2026-09-16 22:28:52,561 - ERROR - LOAFLY_API_KEY is not set
-2026-09-16 22:32:13,080 - INFO - Loafly pipeline started
-2026-09-16 22:32:13,080 - INFO - Starting order extraction from raw_orders.csv
-2026-09-16 22:32:13,080 - INFO - Successfully extracted 15 orders
-2026-09-16 22:32:13,080 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
-2026-09-16 22:32:13,081 - INFO - Order 5001 transformed successfully. Total: 297.00
-2026-09-16 22:32:13,081 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
-2026-09-16 22:32:13,081 - INFO - Finished processing price for item 'Banana Bread' in order 5002
-2026-09-16 22:32:13,081 - INFO - Finished processing price for item 'Ciabatta' in order 5002
-2026-09-16 22:32:13,081 - INFO - Order 5002 transformed successfully. Total: 513.00
-2026-09-16 22:32:13,081 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
-2026-09-16 22:32:13,081 - INFO - Finished processing price for item 'Banana Bread' in order 5003
-2026-09-16 22:32:13,081 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
-2026-09-16 22:32:13,082 - INFO - Order 5003 transformed successfully. Total: 666.00
-2026-09-16 22:32:13,082 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Focaccia' in order 5004
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Baguette' in order 5004
-2026-09-16 22:32:13,082 - INFO - Order 5004 transformed successfully. Total: 369.00
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Focaccia' in order 5005
-2026-09-16 22:32:13,082 - INFO - Order 5005 transformed successfully. Total: 243.00
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Cookie Box' in order 5006
-2026-09-16 22:32:13,082 - INFO - Order 5006 transformed successfully. Total: 1116.00
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
-2026-09-16 22:32:13,082 - INFO - Finished processing price for item 'Banana Bread' in order 5007
-2026-09-16 22:32:13,083 - INFO - Order 5007 transformed successfully. Total: 369.00
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
-2026-09-16 22:32:13,083 - INFO - Order 5008 transformed successfully. Total: 639.00
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Focaccia' in order 5009
-2026-09-16 22:32:13,083 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Ciabatta' in order 5009
-2026-09-16 22:32:13,083 - INFO - Order 5009 transformed successfully. Total: 396.00
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
-2026-09-16 22:32:13,083 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Cookie Box' in order 5010
-2026-09-16 22:32:13,084 - INFO - Order 5010 transformed successfully. Total: 1467.00
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
-2026-09-16 22:32:13,084 - INFO - Order 5011 transformed successfully. Total: 189.00
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
-2026-09-16 22:32:13,084 - INFO - Order 5012 transformed successfully. Total: 351.00
-2026-09-16 22:32:13,084 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Cookie Box' in order 5013
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
-2026-09-16 22:32:13,084 - INFO - Order 5013 transformed successfully. Total: 135.00
-2026-09-16 22:32:13,084 - INFO - Finished processing price for item 'Baguette' in order 5014
-2026-09-16 22:32:13,085 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
-2026-09-16 22:32:13,085 - INFO - Finished processing price for item 'Banana Bread' in order 5014
-2026-09-16 22:32:13,085 - INFO - Order 5014 transformed successfully. Total: 603.00
-2026-09-16 22:32:13,085 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
-2026-09-16 22:32:13,085 - INFO - Order 5015 transformed successfully. Total: 135.00
-2026-09-16 22:32:13,085 - INFO - Saving order 5001 for Arjun, total INR 297.00
-2026-09-16 22:32:13,085 - INFO - Order 5001 saved successfully on attempt 1
-2026-09-16 22:32:13,085 - INFO - Saving order 5002 for Kabir, total INR 513.00
-2026-09-16 22:32:13,085 - WARNING - Attempt 1/3 failed for order 5002: orders API unavailable for order 5002
-2026-09-16 22:32:13,085 - INFO - Waiting 1 second before retrying order 5002
-2026-09-16 22:32:14,088 - WARNING - Attempt 2/3 failed for order 5002: orders API unavailable for order 5002
-2026-09-16 22:32:14,097 - INFO - Waiting 1 second before retrying order 5002
-2026-09-16 22:32:15,098 - WARNING - Attempt 3/3 failed for order 5002: orders API unavailable for order 5002
-2026-09-16 22:32:15,098 - ERROR - Failed to save order 5002 after 3 attempts
-2026-09-16 22:32:15,098 - INFO - Saving order 5003 for Aarav, total INR 666.00
-2026-09-16 22:32:15,098 - WARNING - Attempt 1/3 failed for order 5003: orders API unavailable for order 5003
-2026-09-16 22:32:15,098 - INFO - Waiting 1 second before retrying order 5003
-2026-09-16 22:32:16,099 - WARNING - Attempt 2/3 failed for order 5003: orders API unavailable for order 5003
-2026-09-16 22:32:16,099 - INFO - Waiting 1 second before retrying order 5003
-2026-09-16 22:32:17,101 - WARNING - Attempt 3/3 failed for order 5003: orders API unavailable for order 5003
-2026-09-16 22:32:17,102 - ERROR - Failed to save order 5003 after 3 attempts
-2026-09-16 22:32:17,103 - INFO - Saving order 5004 for Kabir, total INR 369.00
-2026-09-16 22:32:17,104 - INFO - Order 5004 saved successfully on attempt 1
-2026-09-16 22:32:17,105 - INFO - Saving order 5005 for Reyansh, total INR 243.00
-2026-09-16 22:32:17,105 - INFO - Order 5005 saved successfully on attempt 1
-2026-09-16 22:32:17,106 - INFO - Saving order 5006 for Rohan, total INR 1116.00
-2026-09-16 22:32:17,107 - INFO - Order 5006 saved successfully on attempt 1
-2026-09-16 22:32:17,108 - INFO - Saving order 5007 for Dev, total INR 369.00
-2026-09-16 22:32:17,109 - WARNING - Attempt 1/3 failed for order 5007: orders API unavailable for order 5007
-2026-09-16 22:32:17,110 - INFO - Waiting 1 second before retrying order 5007
-2026-09-16 22:32:18,112 - INFO - Order 5007 saved successfully on attempt 2
-2026-09-16 22:32:18,113 - INFO - Saving order 5008 for Ishita, total INR 639.00
-2026-09-16 22:32:18,113 - INFO - Order 5008 saved successfully on attempt 1
-2026-09-16 22:32:18,114 - INFO - Saving order 5009 for Saanvi, total INR 396.00
-2026-09-16 22:32:18,115 - INFO - Order 5009 saved successfully on attempt 1
-2026-09-16 22:32:18,116 - INFO - Saving order 5010 for Kabir, total INR 1467.00
-2026-09-16 22:32:18,116 - INFO - Order 5010 saved successfully on attempt 1
-2026-09-16 22:32:18,117 - INFO - Saving order 5011 for Rohan, total INR 189.00
-2026-09-16 22:32:18,118 - INFO - Order 5011 saved successfully on attempt 1
-2026-09-16 22:32:18,119 - INFO - Saving order 5012 for Reyansh, total INR 351.00
-2026-09-16 22:32:18,119 - WARNING - Attempt 1/3 failed for order 5012: orders API unavailable for order 5012
-2026-09-16 22:32:18,120 - INFO - Waiting 1 second before retrying order 5012
-2026-09-16 22:32:19,122 - WARNING - Attempt 2/3 failed for order 5012: orders API unavailable for order 5012
-2026-09-16 22:32:19,122 - INFO - Waiting 1 second before retrying order 5012
-2026-09-16 22:32:20,123 - INFO - Order 5012 saved successfully on attempt 3
-2026-09-16 22:32:20,123 - INFO - Saving order 5013 for Saanvi, total INR 135.00
-2026-09-16 22:32:20,123 - WARNING - Attempt 1/3 failed for order 5013: orders API unavailable for order 5013
-2026-09-16 22:32:20,123 - INFO - Waiting 1 second before retrying order 5013
-2026-09-16 22:32:21,124 - INFO - Order 5013 saved successfully on attempt 2
-2026-09-16 22:32:21,124 - INFO - Saving order 5014 for Aditya, total INR 603.00
-2026-09-16 22:32:21,125 - INFO - Order 5014 saved successfully on attempt 1
-2026-09-16 22:32:21,125 - INFO - Saving order 5015 for Naina, total INR 135.00
-2026-09-16 22:32:21,125 - INFO - Order 5015 saved successfully on attempt 1
-2026-09-16 22:32:21,125 - INFO - Loafly pipeline completed successfully
->>>>>>> 5f67676 (Fix order loading retry and refresh pipeline log)
+2026-09-17 11:10:44,583 - INFO - Loafly pipeline started
+2026-09-17 11:10:44,583 - INFO - Starting order extraction from raw_orders.csv
+2026-09-17 11:10:44,583 - ERROR - Input file not found: raw_orders.csv
+2026-09-17 11:10:44,583 - ERROR - Loafly pipeline failed
+Traceback (most recent call last):
+  File "c:\# DATA ENGINEERING -  BootCamp\# Live DE Cohort\WEEK-02 (Datawarehouse & Advanced Python)\Session-4-Assignment (Production Python)\loafly-production-python\run_pipeline.py", line 43, in main
+    raw_orders = extract_orders()
+  File "c:\# DATA ENGINEERING -  BootCamp\# Live DE Cohort\WEEK-02 (Datawarehouse & Advanced Python)\Session-4-Assignment (Production Python)\loafly-production-python\loafly\extract.py", line 19, in extract_orders
+    with open(INPUT_FILE, newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'raw_orders.csv'
+2026-09-17 11:11:31,537 - INFO - Loafly pipeline started
+2026-09-17 11:11:31,537 - INFO - Starting order extraction from raw_orders.csv
+2026-09-17 11:11:31,538 - INFO - Successfully extracted 15 orders
+2026-09-17 11:11:31,538 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
+2026-09-17 11:11:31,538 - INFO - Order 5001 transformed successfully. Total: 297.00
+2026-09-17 11:11:31,538 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
+2026-09-17 11:11:31,538 - INFO - Finished processing price for item 'Banana Bread' in order 5002
+2026-09-17 11:11:31,538 - INFO - Finished processing price for item 'Ciabatta' in order 5002
+2026-09-17 11:11:31,538 - INFO - Order 5002 transformed successfully. Total: 513.00
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Banana Bread' in order 5003
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
+2026-09-17 11:11:31,539 - INFO - Order 5003 transformed successfully. Total: 666.00
+2026-09-17 11:11:31,539 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Focaccia' in order 5004
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Baguette' in order 5004
+2026-09-17 11:11:31,539 - INFO - Order 5004 transformed successfully. Total: 369.00
+2026-09-17 11:11:31,539 - INFO - Finished processing price for item 'Focaccia' in order 5005
+2026-09-17 11:11:31,540 - INFO - Order 5005 transformed successfully. Total: 243.00
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Cookie Box' in order 5006
+2026-09-17 11:11:31,540 - INFO - Order 5006 transformed successfully. Total: 1116.00
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Banana Bread' in order 5007
+2026-09-17 11:11:31,540 - INFO - Order 5007 transformed successfully. Total: 369.00
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
+2026-09-17 11:11:31,540 - INFO - Order 5008 transformed successfully. Total: 639.00
+2026-09-17 11:11:31,540 - INFO - Finished processing price for item 'Focaccia' in order 5009
+2026-09-17 11:11:31,540 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Ciabatta' in order 5009
+2026-09-17 11:11:31,541 - INFO - Order 5009 transformed successfully. Total: 396.00
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Cookie Box' in order 5010
+2026-09-17 11:11:31,541 - INFO - Order 5010 transformed successfully. Total: 1467.00
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
+2026-09-17 11:11:31,541 - INFO - Order 5011 transformed successfully. Total: 189.00
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
+2026-09-17 11:11:31,541 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
+2026-09-17 11:11:31,541 - INFO - Order 5012 transformed successfully. Total: 351.00
+2026-09-17 11:11:31,542 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
+2026-09-17 11:11:31,542 - INFO - Finished processing price for item 'Cookie Box' in order 5013
+2026-09-17 11:11:31,542 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
+2026-09-17 11:11:31,542 - INFO - Order 5013 transformed successfully. Total: 135.00
+2026-09-17 11:11:31,542 - INFO - Finished processing price for item 'Baguette' in order 5014
+2026-09-17 11:11:31,542 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
+2026-09-17 11:11:31,542 - INFO - Finished processing price for item 'Banana Bread' in order 5014
+2026-09-17 11:11:31,542 - INFO - Order 5014 transformed successfully. Total: 603.00
+2026-09-17 11:11:31,542 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
+2026-09-17 11:11:31,542 - INFO - Order 5015 transformed successfully. Total: 135.00
+2026-09-17 11:11:31,542 - INFO - Saving order 5001 for Arjun, total INR 297.00
+2026-09-17 11:11:31,543 - WARNING - Attempt 1/3 failed for order 5001: orders API unavailable for order 5001
+2026-09-17 11:11:31,543 - INFO - Waiting 1 second before retrying order 5001
+2026-09-17 11:11:32,562 - INFO - Order 5001 saved successfully on attempt 2
+2026-09-17 11:11:32,576 - INFO - Saving order 5002 for Kabir, total INR 513.00
+2026-09-17 11:11:32,577 - INFO - Order 5002 saved successfully on attempt 1
+2026-09-17 11:11:32,577 - INFO - Saving order 5003 for Aarav, total INR 666.00
+2026-09-17 11:11:32,577 - INFO - Order 5003 saved successfully on attempt 1
+2026-09-17 11:11:32,577 - INFO - Saving order 5004 for Kabir, total INR 369.00
+2026-09-17 11:11:32,577 - INFO - Order 5004 saved successfully on attempt 1
+2026-09-17 11:11:32,578 - INFO - Saving order 5005 for Reyansh, total INR 243.00
+2026-09-17 11:11:32,578 - INFO - Order 5005 saved successfully on attempt 1
+2026-09-17 11:11:32,578 - INFO - Saving order 5006 for Rohan, total INR 1116.00
+2026-09-17 11:11:32,578 - INFO - Order 5006 saved successfully on attempt 1
+2026-09-17 11:11:32,578 - INFO - Saving order 5007 for Dev, total INR 369.00
+2026-09-17 11:11:32,579 - WARNING - Attempt 1/3 failed for order 5007: orders API unavailable for order 5007
+2026-09-17 11:11:32,579 - INFO - Waiting 1 second before retrying order 5007
+2026-09-17 11:11:33,580 - WARNING - Attempt 2/3 failed for order 5007: orders API unavailable for order 5007
+2026-09-17 11:11:33,580 - INFO - Waiting 1 second before retrying order 5007
+2026-09-17 11:11:34,580 - INFO - Order 5007 saved successfully on attempt 3
+2026-09-17 11:11:34,581 - INFO - Saving order 5008 for Ishita, total INR 639.00
+2026-09-17 11:11:34,581 - WARNING - Attempt 1/3 failed for order 5008: orders API unavailable for order 5008
+2026-09-17 11:11:34,581 - INFO - Waiting 1 second before retrying order 5008
+2026-09-17 11:11:35,582 - INFO - Order 5008 saved successfully on attempt 2
+2026-09-17 11:11:35,583 - INFO - Saving order 5009 for Saanvi, total INR 396.00
+2026-09-17 11:11:35,584 - INFO - Order 5009 saved successfully on attempt 1
+2026-09-17 11:11:35,585 - INFO - Saving order 5010 for Kabir, total INR 1467.00
+2026-09-17 11:11:35,585 - INFO - Order 5010 saved successfully on attempt 1
+2026-09-17 11:11:35,587 - INFO - Saving order 5011 for Rohan, total INR 189.00
+2026-09-17 11:11:35,587 - WARNING - Attempt 1/3 failed for order 5011: orders API unavailable for order 5011
+2026-09-17 11:11:35,588 - INFO - Waiting 1 second before retrying order 5011
+2026-09-17 11:11:36,589 - INFO - Order 5011 saved successfully on attempt 2
+2026-09-17 11:11:36,590 - INFO - Saving order 5012 for Reyansh, total INR 351.00
+2026-09-17 11:11:36,591 - INFO - Order 5012 saved successfully on attempt 1
+2026-09-17 11:11:36,591 - INFO - Saving order 5013 for Saanvi, total INR 135.00
+2026-09-17 11:11:36,592 - INFO - Order 5013 saved successfully on attempt 1
+2026-09-17 11:11:36,593 - INFO - Saving order 5014 for Aditya, total INR 603.00
+2026-09-17 11:11:36,594 - WARNING - Attempt 1/3 failed for order 5014: orders API unavailable for order 5014
+2026-09-17 11:11:36,594 - INFO - Waiting 1 second before retrying order 5014
+2026-09-17 11:11:37,596 - INFO - Order 5014 saved successfully on attempt 2
+2026-09-17 11:11:37,597 - INFO - Saving order 5015 for Naina, total INR 135.00
+2026-09-17 11:11:37,597 - INFO - Order 5015 saved successfully on attempt 1
+2026-09-17 11:11:37,598 - INFO - Loafly pipeline completed successfully
+2026-09-17 11:29:57,192 - INFO - Loafly pipeline started
+2026-09-17 11:29:57,193 - INFO - Starting order extraction from raw_orders.csv
+2026-09-17 11:29:57,194 - INFO - Successfully extracted 15 orders
+2026-09-17 11:29:57,195 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
+2026-09-17 11:29:57,195 - INFO - Order 5001 transformed successfully. Total: 297.00
+2026-09-17 11:29:57,195 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
+2026-09-17 11:29:57,195 - INFO - Finished processing price for item 'Banana Bread' in order 5002
+2026-09-17 11:29:57,195 - INFO - Finished processing price for item 'Ciabatta' in order 5002
+2026-09-17 11:29:57,195 - INFO - Order 5002 transformed successfully. Total: 513.00
+2026-09-17 11:29:57,195 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
+2026-09-17 11:29:57,195 - INFO - Finished processing price for item 'Banana Bread' in order 5003
+2026-09-17 11:29:57,196 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
+2026-09-17 11:29:57,196 - INFO - Order 5003 transformed successfully. Total: 666.00
+2026-09-17 11:29:57,196 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
+2026-09-17 11:29:57,196 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
+2026-09-17 11:29:57,196 - INFO - Finished processing price for item 'Focaccia' in order 5004
+2026-09-17 11:29:57,196 - INFO - Finished processing price for item 'Baguette' in order 5004
+2026-09-17 11:29:57,196 - INFO - Order 5004 transformed successfully. Total: 369.00
+2026-09-17 11:29:57,196 - INFO - Finished processing price for item 'Focaccia' in order 5005
+2026-09-17 11:29:57,196 - INFO - Order 5005 transformed successfully. Total: 243.00
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Cookie Box' in order 5006
+2026-09-17 11:29:57,197 - INFO - Order 5006 transformed successfully. Total: 1116.00
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Banana Bread' in order 5007
+2026-09-17 11:29:57,197 - INFO - Order 5007 transformed successfully. Total: 369.00
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
+2026-09-17 11:29:57,197 - INFO - Order 5008 transformed successfully. Total: 639.00
+2026-09-17 11:29:57,197 - INFO - Finished processing price for item 'Focaccia' in order 5009
+2026-09-17 11:29:57,198 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
+2026-09-17 11:29:57,198 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
+2026-09-17 11:29:57,198 - INFO - Finished processing price for item 'Ciabatta' in order 5009
+2026-09-17 11:29:57,198 - INFO - Order 5009 transformed successfully. Total: 396.00
+2026-09-17 11:29:57,198 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
+2026-09-17 11:29:57,198 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
+2026-09-17 11:29:57,198 - INFO - Finished processing price for item 'Cookie Box' in order 5010
+2026-09-17 11:29:57,198 - INFO - Order 5010 transformed successfully. Total: 1467.00
+2026-09-17 11:29:57,198 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
+2026-09-17 11:29:57,199 - INFO - Order 5011 transformed successfully. Total: 189.00
+2026-09-17 11:29:57,199 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
+2026-09-17 11:29:57,199 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
+2026-09-17 11:29:57,199 - INFO - Order 5012 transformed successfully. Total: 351.00
+2026-09-17 11:29:57,199 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
+2026-09-17 11:29:57,199 - INFO - Finished processing price for item 'Cookie Box' in order 5013
+2026-09-17 11:29:57,200 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
+2026-09-17 11:29:57,200 - INFO - Order 5013 transformed successfully. Total: 135.00
+2026-09-17 11:29:57,200 - INFO - Finished processing price for item 'Baguette' in order 5014
+2026-09-17 11:29:57,200 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
+2026-09-17 11:29:57,200 - INFO - Finished processing price for item 'Banana Bread' in order 5014
+2026-09-17 11:29:57,200 - INFO - Order 5014 transformed successfully. Total: 603.00
+2026-09-17 11:29:57,200 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
+2026-09-17 11:29:57,201 - INFO - Order 5015 transformed successfully. Total: 135.00
+2026-09-17 11:29:57,201 - INFO - Saving order 5001 for Arjun, total INR 297.00
+2026-09-17 11:29:57,201 - INFO - Order 5001 saved successfully on attempt 1
+2026-09-17 11:29:57,201 - INFO - Saving order 5002 for Kabir, total INR 513.00
+2026-09-17 11:29:57,201 - WARNING - Attempt 1/3 failed for order 5002: orders API unavailable for order 5002
+2026-09-17 11:29:57,201 - INFO - Waiting 1 second before retrying order 5002
+2026-09-17 11:29:58,201 - INFO - Order 5002 saved successfully on attempt 2
+2026-09-17 11:29:58,202 - INFO - Saving order 5003 for Aarav, total INR 666.00
+2026-09-17 11:29:58,202 - INFO - Order 5003 saved successfully on attempt 1
+2026-09-17 11:29:58,202 - INFO - Saving order 5004 for Kabir, total INR 369.00
+2026-09-17 11:29:58,202 - INFO - Order 5004 saved successfully on attempt 1
+2026-09-17 11:29:58,202 - INFO - Saving order 5005 for Reyansh, total INR 243.00
+2026-09-17 11:29:58,202 - INFO - Order 5005 saved successfully on attempt 1
+2026-09-17 11:29:58,202 - INFO - Saving order 5006 for Rohan, total INR 1116.00
+2026-09-17 11:29:58,203 - WARNING - Attempt 1/3 failed for order 5006: orders API unavailable for order 5006
+2026-09-17 11:29:58,203 - INFO - Waiting 1 second before retrying order 5006
+2026-09-17 11:29:59,203 - INFO - Order 5006 saved successfully on attempt 2
+2026-09-17 11:29:59,204 - INFO - Saving order 5007 for Dev, total INR 369.00
+2026-09-17 11:29:59,204 - INFO - Order 5007 saved successfully on attempt 1
+2026-09-17 11:29:59,204 - INFO - Saving order 5008 for Ishita, total INR 639.00
+2026-09-17 11:29:59,204 - WARNING - Attempt 1/3 failed for order 5008: orders API unavailable for order 5008
+2026-09-17 11:29:59,204 - INFO - Waiting 1 second before retrying order 5008
+2026-09-17 11:30:00,205 - INFO - Order 5008 saved successfully on attempt 2
+2026-09-17 11:30:00,205 - INFO - Saving order 5009 for Saanvi, total INR 396.00
+2026-09-17 11:30:00,205 - INFO - Order 5009 saved successfully on attempt 1
+2026-09-17 11:30:00,206 - INFO - Saving order 5010 for Kabir, total INR 1467.00
+2026-09-17 11:30:00,206 - INFO - Order 5010 saved successfully on attempt 1
+2026-09-17 11:30:00,206 - INFO - Saving order 5011 for Rohan, total INR 189.00
+2026-09-17 11:30:00,206 - WARNING - Attempt 1/3 failed for order 5011: orders API unavailable for order 5011
+2026-09-17 11:30:00,206 - INFO - Waiting 1 second before retrying order 5011
+2026-09-17 11:30:01,207 - INFO - Order 5011 saved successfully on attempt 2
+2026-09-17 11:30:01,209 - INFO - Saving order 5012 for Reyansh, total INR 351.00
+2026-09-17 11:30:01,209 - INFO - Order 5012 saved successfully on attempt 1
+2026-09-17 11:30:01,209 - INFO - Saving order 5013 for Saanvi, total INR 135.00
+2026-09-17 11:30:01,209 - WARNING - Attempt 1/3 failed for order 5013: orders API unavailable for order 5013
+2026-09-17 11:30:01,210 - INFO - Waiting 1 second before retrying order 5013
+2026-09-17 11:30:02,210 - INFO - Order 5013 saved successfully on attempt 2
+2026-09-17 11:30:02,211 - INFO - Saving order 5014 for Aditya, total INR 603.00
+2026-09-17 11:30:02,211 - INFO - Order 5014 saved successfully on attempt 1
+2026-09-17 11:30:02,212 - INFO - Saving order 5015 for Naina, total INR 135.00
+2026-09-17 11:30:02,212 - INFO - Order 5015 saved successfully on attempt 1
+2026-09-17 11:30:02,213 - INFO - Loafly pipeline completed successfully
+2026-09-17 11:36:51,351 - INFO - Loafly pipeline started
+2026-09-17 11:36:51,351 - INFO - Starting order extraction from raw_orders.csv
+2026-09-17 11:36:51,352 - INFO - Successfully extracted 15 orders
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5001
+2026-09-17 11:36:51,352 - INFO - Order 5001 transformed successfully. Total: 297.00
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Butter Croissant' in order 5002
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Banana Bread' in order 5002
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Ciabatta' in order 5002
+2026-09-17 11:36:51,352 - INFO - Order 5002 transformed successfully. Total: 513.00
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5003
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Banana Bread' in order 5003
+2026-09-17 11:36:51,352 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5003
+2026-09-17 11:36:51,353 - INFO - Order 5003 transformed successfully. Total: 666.00
+2026-09-17 11:36:51,353 - WARNING - Skipping item 'Chocolate Cake Slice' in order 5004: missing or invalid price
+2026-09-17 11:36:51,353 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5004
+2026-09-17 11:36:51,353 - INFO - Finished processing price for item 'Focaccia' in order 5004
+2026-09-17 11:36:51,353 - INFO - Finished processing price for item 'Baguette' in order 5004
+2026-09-17 11:36:51,353 - INFO - Order 5004 transformed successfully. Total: 369.00
+2026-09-17 11:36:51,353 - INFO - Finished processing price for item 'Focaccia' in order 5005
+2026-09-17 11:36:51,353 - INFO - Order 5005 transformed successfully. Total: 243.00
+2026-09-17 11:36:51,353 - INFO - Finished processing price for item 'Cookie Box' in order 5006
+2026-09-17 11:36:51,353 - INFO - Order 5006 transformed successfully. Total: 1116.00
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Butter Croissant' in order 5007
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Banana Bread' in order 5007
+2026-09-17 11:36:51,354 - INFO - Order 5007 transformed successfully. Total: 369.00
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5008
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Butter Croissant' in order 5008
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Sourdough Loaf' in order 5008
+2026-09-17 11:36:51,354 - INFO - Order 5008 transformed successfully. Total: 639.00
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Focaccia' in order 5009
+2026-09-17 11:36:51,354 - WARNING - Skipping item 'Blueberry Muffin' in order 5009: missing or invalid price
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5009
+2026-09-17 11:36:51,354 - INFO - Finished processing price for item 'Ciabatta' in order 5009
+2026-09-17 11:36:51,355 - INFO - Order 5009 transformed successfully. Total: 396.00
+2026-09-17 11:36:51,355 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5010
+2026-09-17 11:36:51,355 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5010
+2026-09-17 11:36:51,355 - INFO - Finished processing price for item 'Cookie Box' in order 5010
+2026-09-17 11:36:51,355 - INFO - Order 5010 transformed successfully. Total: 1467.00
+2026-09-17 11:36:51,355 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5011
+2026-09-17 11:36:51,355 - INFO - Order 5011 transformed successfully. Total: 189.00
+2026-09-17 11:36:51,355 - INFO - Finished processing price for item 'Butter Croissant' in order 5012
+2026-09-17 11:36:51,355 - INFO - Finished processing price for item 'Cinnamon Roll' in order 5012
+2026-09-17 11:36:51,355 - INFO - Order 5012 transformed successfully. Total: 351.00
+2026-09-17 11:36:51,355 - WARNING - Skipping item 'Cookie Box' in order 5013: missing or invalid price
+2026-09-17 11:36:51,356 - INFO - Finished processing price for item 'Cookie Box' in order 5013
+2026-09-17 11:36:51,356 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5013
+2026-09-17 11:36:51,356 - INFO - Order 5013 transformed successfully. Total: 135.00
+2026-09-17 11:36:51,356 - INFO - Finished processing price for item 'Baguette' in order 5014
+2026-09-17 11:36:51,356 - INFO - Finished processing price for item 'Chocolate Cake Slice' in order 5014
+2026-09-17 11:36:51,356 - INFO - Finished processing price for item 'Banana Bread' in order 5014
+2026-09-17 11:36:51,356 - INFO - Order 5014 transformed successfully. Total: 603.00
+2026-09-17 11:36:51,356 - INFO - Finished processing price for item 'Blueberry Muffin' in order 5015
+2026-09-17 11:36:51,356 - INFO - Order 5015 transformed successfully. Total: 135.00
+2026-09-17 11:36:51,356 - INFO - Saving order 5001 for Arjun, total INR 297.00
+2026-09-17 11:36:51,357 - WARNING - Attempt 1/3 failed for order 5001: orders API unavailable for order 5001
+2026-09-17 11:36:51,357 - INFO - Waiting 1 second before retrying order 5001
+2026-09-17 11:36:52,357 - INFO - Order 5001 saved successfully on attempt 2
+2026-09-17 11:36:52,357 - INFO - Saving order 5002 for Kabir, total INR 513.00
+2026-09-17 11:36:52,357 - INFO - Order 5002 saved successfully on attempt 1
+2026-09-17 11:36:52,358 - INFO - Saving order 5003 for Aarav, total INR 666.00
+2026-09-17 11:36:52,358 - INFO - Order 5003 saved successfully on attempt 1
+2026-09-17 11:36:52,358 - INFO - Saving order 5004 for Kabir, total INR 369.00
+2026-09-17 11:36:52,358 - WARNING - Attempt 1/3 failed for order 5004: orders API unavailable for order 5004
+2026-09-17 11:36:52,358 - INFO - Waiting 1 second before retrying order 5004
+2026-09-17 11:36:53,359 - INFO - Order 5004 saved successfully on attempt 2
+2026-09-17 11:36:53,359 - INFO - Saving order 5005 for Reyansh, total INR 243.00
+2026-09-17 11:36:53,360 - WARNING - Attempt 1/3 failed for order 5005: orders API unavailable for order 5005
+2026-09-17 11:36:53,360 - INFO - Waiting 1 second before retrying order 5005
+2026-09-17 11:36:54,361 - WARNING - Attempt 2/3 failed for order 5005: orders API unavailable for order 5005
+2026-09-17 11:36:54,362 - INFO - Waiting 1 second before retrying order 5005
+2026-09-17 11:36:55,363 - WARNING - Attempt 3/3 failed for order 5005: orders API unavailable for order 5005
+2026-09-17 11:36:55,364 - ERROR - Failed to save order 5005 after 3 attempts
+2026-09-17 11:36:55,365 - INFO - Saving order 5006 for Rohan, total INR 1116.00
+2026-09-17 11:36:55,365 - WARNING - Attempt 1/3 failed for order 5006: orders API unavailable for order 5006
+2026-09-17 11:36:55,366 - INFO - Waiting 1 second before retrying order 5006
+2026-09-17 11:36:56,368 - INFO - Order 5006 saved successfully on attempt 2
+2026-09-17 11:36:56,369 - INFO - Saving order 5007 for Dev, total INR 369.00
+2026-09-17 11:36:56,369 - INFO - Order 5007 saved successfully on attempt 1
+2026-09-17 11:36:56,370 - INFO - Saving order 5008 for Ishita, total INR 639.00
+2026-09-17 11:36:56,371 - INFO - Order 5008 saved successfully on attempt 1
+2026-09-17 11:36:56,372 - INFO - Saving order 5009 for Saanvi, total INR 396.00
+2026-09-17 11:36:56,373 - INFO - Order 5009 saved successfully on attempt 1
+2026-09-17 11:36:56,373 - INFO - Saving order 5010 for Kabir, total INR 1467.00
+2026-09-17 11:36:56,374 - WARNING - Attempt 1/3 failed for order 5010: orders API unavailable for order 5010
+2026-09-17 11:36:56,375 - INFO - Waiting 1 second before retrying order 5010
+2026-09-17 11:36:57,376 - WARNING - Attempt 2/3 failed for order 5010: orders API unavailable for order 5010
+2026-09-17 11:36:57,377 - INFO - Waiting 1 second before retrying order 5010
+2026-09-17 11:36:58,379 - INFO - Order 5010 saved successfully on attempt 3
+2026-09-17 11:36:58,380 - INFO - Saving order 5011 for Rohan, total INR 189.00
+2026-09-17 11:36:58,380 - INFO - Order 5011 saved successfully on attempt 1
+2026-09-17 11:36:58,381 - INFO - Saving order 5012 for Reyansh, total INR 351.00
+2026-09-17 11:36:58,382 - INFO - Order 5012 saved successfully on attempt 1
+2026-09-17 11:36:58,383 - INFO - Saving order 5013 for Saanvi, total INR 135.00
+2026-09-17 11:36:58,383 - INFO - Order 5013 saved successfully on attempt 1
+2026-09-17 11:36:58,384 - INFO - Saving order 5014 for Aditya, total INR 603.00
+2026-09-17 11:36:58,385 - INFO - Order 5014 saved successfully on attempt 1
+2026-09-17 11:36:58,386 - INFO - Saving order 5015 for Naina, total INR 135.00
+2026-09-17 11:36:58,386 - WARNING - Attempt 1/3 failed for order 5015: orders API unavailable for order 5015
+2026-09-17 11:36:58,387 - INFO - Waiting 1 second before retrying order 5015
+2026-09-17 11:36:59,398 - INFO - Order 5015 saved successfully on attempt 2
+2026-09-17 11:36:59,416 - INFO - Loafly pipeline completed successfully
